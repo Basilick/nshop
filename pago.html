@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">   <meta http-equiv="X-UA-Compatible" content="ie-edge">
+		
+        <title>PAGO: N-shop</title>
+		<link rel="shortcut icon" href="assets/img/favicon.ico">
+        <link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/carousel.css">
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		 <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+		<link rel="stylesheet" type="text/css" href="css/fa-svg-with-js.css">
+		<link rel="stylesheet" type="text/css" href="css/fontawesome.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+		
+	
+	
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="css/cart.css">
+
+		
+    </head>
+    
+    <body>
+		
+	 <!--==========================
+    Top Bar
+  ============================-->
+  <section id="topbar" class="d-lg-block">
+    <div class="container-fluid clearfix">
+      <div class="row">
+		<div class="col-4 top_evioalert">
+       <p> <span class="color_naranjan"><i class="far fa-exclamation-circle"></i></span>  Envío gratis desde $60.00</p>
+      
+		  </div>
+		  
+		  <div class="col-4 top_username">
+           <p>¡Hola Gandalf!</p>
+      
+		  </div>
+		  
+		  <div class="col-4 top_descuentos">
+             <a>10% de Descuento en Papilla Gerber&reg;</a>
+      
+		  </div>
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+     <div class="container-fluid">
+      <div class="row">
+      <div id="logo" class="col-sm-3">
+        <a href="index.html"><img src="assets/img/logo_nshop_head.png" alt="N-shop"></a>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
+      </div>
+		
+		 <div class="search_bar input-group col-sm-6">
+            <input class="form-control py-2 border-right-0 border" type="search" value="Buscar Productos..." id="example-search-input">
+            <span class="input-group-append">
+                <button class="btn btn-outline-secondary border-left-0 border" type="button">
+                    <i class="fa fa-search"></i>
+                </button>
+              </span>
+        </div>
+		
+		 <div class="social-links col-sm-3">
+       
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+	    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="perfil.html" class="user"><i class="fa fa-user-alt"></i></a>
+	    <a href="#" class="cartz dropdown-toggle" data-toggle="dropdown"><i class="fa fa-shopping-cart"></i>
+         <label id="lblCartCount" runat="server" CssClass="badge badge-warning"  ForeColor="White">5</label></a>
+			 
+		 <div id="carto" class="cart_container dropdown-menu">
+              
+				  
+				  <div class="shopping-cart ">
+                <div class="row">
+                    <div class="col-md-3 xs-img"><img src="assets/catalogo/art1_sm.jpg" width="85" class="img-responsive" /></div>
+                    <div class="col-md-7 xs-desc">
+                        <span class="item-name">Nombre del artículo</span>
+                        <span class="item-sku">SKU</span>
+                        <span class="item-points">999,999 <span class="color_naranja">pts</span></span>
+                    </div>
+                    <div class="col-md-2 xs-delete text-right"><a href="" class="btn_delete">X</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 xs-img"><img src="assets/catalogo/art1_sm.jpg" width="85" class="img-responsive" /></div>
+                    <div class="col-md-7 xs-desc">
+                        <span class="item-name">Nombre del artículo</span>
+                        <span class="item-sku">SKU</span>
+                        <span class="item-points">999,999 <span class="color_naranja">pts</span></span>
+                    </div>
+                    <div class="col-md-2 xs-delete text-right"><a href="" class="btn_delete">X</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 xs-img"><img src="assets/catalogo/art1_sm.jpg" width="85" class="img-responsive" /></div>
+                    <div class="col-md-7 xs-desc">
+                        <span class="item-name">Nombre del artículo</span>
+                        <span class="item-sku">SKU</span>
+                        <span class="item-points">999,999 <span class="color_naranja">pts</span></span>
+                    </div>
+                    <div class="col-md-2 xs-delete text-right"><a href="" class="btn_delete">X</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr>
+                    </div>
+                </div>
+
+                <a href="carrito.html" class="button btn btn-default btn-lg">VER CARRITO</a>
+              </div> <!--end shopping-cart -->
+            
+			</div>	 
+        
+         <p class="color_naranjan"> $150.00</p>
+      </div>
+
+		  
+		  <section id="botonbar_mob" class="d-xl-none ">
+    			<div class="container-fluid clearfix">
+      				<div class="row">
+					<div class="col-sm-12 bott_evioalert">
+      					 <p class="color_azuln"> <span ><i class="far fa-exclamation-circle color_naranjan"></i></span>  Envío gratis desde $60.00</p>
+      
+		 				 </div>
+		  
+		  			<div class="col-sm-12 bott_descuentos">
+             		<a >10% de Descuento en Papilla Gerber&reg;</a>
+      
+		  			</div>
+      					</div>
+    			</div>
+  			</section>
+
+		  
+     </div>
+  </div>
+		
+</header><!-- #header -->
+	
+ 
+	
+	<button onclick="topFunction()" id="btn_go_tothetop" title="Go to top"><i class="fas fa-chevron-circle-up"></i></button>
+ 			
+			 <div id="owl-menu" class="scrollmenu_cont owl-carousel">
+				 <div class="item"><a href="categorias.html">Aguas</a></div>
+         		<div class="item"><a href="categorias.html">Alimentos Infantiles</a></div>
+          		<div class="item"><a href="categorias.html">Cafés</a></div>
+          		<div class="item"><a href="categorias.html">Cereales</a></div>
+          		<div class="item"><a href="categorias.html">Culinarios</a></div>
+                <div class="item"> <a href="categorias.html">Dolce Gusto</a></div>
+				<div class="item"><a href="categorias.html">Fórmula Infantil</a></div>
+		  		<div class="item"><a href="categorias.html">Lácteos</a></div>
+		  		<div class="item"><a href="categorias.html">Leches de crecimiento</a></div>
+		  		<div class="item"><a href="categorias.html">Modificaciones</a></div>
+		  		<div class="item"><a href="categorias.html">Nutrición Adultos</a></div>
+		  		<div class="item"><a href="categorias.html">Profesional</a></div>
+		 		<div class="item"><a href="categorias.html">Purina</a></div>
+		  		<div class="item"><a href="categorias.html">Recetas Nestle</a></div>
+        
+      		</div><!-- #nav-menu-container -->
+	            
+		
+     
+	<div class="container">
+		
+		<div class="row cont_steps_carri" >
+		
+			<div class="steps-form-2 col-sm-8">
+				
+    			<div class="steps-row-2 setup-panel-2 d-flex justify-content-between">
+        		<div class="steps-step-2">
+           		 <a href="#step-1"  class="btn-circle-2 inactive" >1</a>
+					<p class="inactive_p">Carrito</p>
+        		</div>
+        		<div class="steps-step-2">
+            	<a href="#step-2"  class="btn-circle-2 inactive">2</a>
+					<p class="inactive_p" >Datos</p>
+       			 </div>
+        		<div class="steps-step-2">
+           		 <a href="#step-3"  class="btn-circle-2" >3</a> 
+					<p class="">Pago</p>
+        		</div>
+       		 
+    			</div>
+			
+			
+			</div>
+			
+		</div>
+
+		
+		<div class="row cont_datos_carrito">
+		     
+	        <div class="col-sm-8 cont_forma_pago">
+				
+        	<h3 class="color_azuln">Seleciona tu forma de pago</h3>
+			
+				<div class="col-sm-12 cont_tarj_aut">
+					
+					<p>Tarjetas Autorizadas</p>
+					
+					
+					<div class="paymentWrap">
+							<div class="btn-group paymentBtnGroup btn-group-justified" data-toggle="buttons">
+					            <label class="btn paymentMethod active">
+					            	<div class="method visa"></div>
+					                <input type="radio" name="options" checked> 
+					            </label>
+					            <label class="btn paymentMethod">
+					            	<div class="method master-card"></div>
+					                <input type="radio" name="options"> 
+					            </label>
+					           
+					         
+					        </div>        
+						</div>
+					<div class="row">
+					<div class="col-sm-6">
+					<a href="" class="btn_trans_banc">Transferencia Bancaria</a>
+				
+					<a href="" class="btn_tien_conve">Tienda de Conveniencia</a>
+					</div>
+					
+					<div class="col-sm-6">
+					
+					<a href="" class="btn_tarjet">Tarjeta</a>
+					
+					</div>
+						
+					</div>	
+				</div>
+				
+				<h3 class="color_azuln">Introduce tus datos</h3>
+				<p class="txt_camp_obli color_azuln">*Campos obligatorios</p>
+			
+				<div class="col-sm-12  cont_nips">
+					<form class="row">
+  					
+					<div class="form-group col-sm-12">
+    					<input type="name" class="form-control"  placeholder="Nombre como aprece en tu tarjeta*">
+ 					 </div>
+					
+					<label class="txt_numer_tarj">*Numero de tarjeta</label>
+					
+						
+					<div class="form-group col-sm-3">
+    					<input type="name" class="form-control"  placeholder="">
+ 					 </div>
+  					<div class="form-group col-sm-3">
+    					<input type="name" class="form-control"  placeholder="">
+ 					 </div>
+					
+					<div class="form-group col-sm-3">
+    					<input type="email" class="form-control"  placeholder="">
+ 					 </div>
+					<div class="form-group col-sm-3">
+    					<input type="name" class="form-control"  placeholder="">
+ 					 </div>
+					
+					<div class="form-group col-sm-4">
+    					<input type="number" class="form-control"  placeholder="Mes">
+ 					 </div>
+					<div class="form-group col-sm-4">
+    					<input type="email" class="form-control"  placeholder="Año">
+ 					 </div>
+					<div class="form-group col-sm-4">
+    					<input type="email" class="form-control"  placeholder="CVV">
+ 					 </div>
+				
+				</form>
+					
+					
+				</div>
+				
+            </div>
+			
+			<div class="col-sm-4">
+       		 
+				<h3 class="color_azuln">Total de artículos: <span class="color_naranjan">1 artículo</span> </h3>
+				
+				<div class="row  cont_resumen_comprar">
+					
+					<div class="col-sm-12 cont_name_product">
+					<p class="color_azuln"><span>1x</span> <span>Cereal Nesquik 345gr.</span> <span>$55.00</span></p>
+					<hr>
+					</div>
+					
+					<div class="col-sm-12 cont_total_art">
+					<p class="color_azuln">TOTAL DEL ARTÍCULO: <span class="color_naranjan">$55.00 pesos</span></p>	
+					<hr>
+					</div>	
+					
+					<div class="col-sm-12 cont_total_envi">
+					<p class="color_azuln"><i class="fas fa-truck"></i> Tu costo de envió es de: <span class="color_naranjan">$89.00 pesos</span></p>	
+						
+						<p class="txt_teimpolim"><i class="far fa-clock color_azuln"></i> Recuerda que la entrega es de 3 a 7 días hábiles una vez confirmado el pago.</p>
+					<hr>
+					</div>	
+					
+					
+					<div class="col-sm-12 cont_total_envi">
+					<p class="color_azuln"><i class="fas fa-ticket-alt"></i><span class="color_naranjan"> Ingresar Cupón de Descuento</span></p>	
+						
+						<input type="name" class="form-control"  placeholder="Numero de cupón">
+					<hr>
+					</div>	
+					
+					
+					<div class="col-sm-12 cont_total_pagar">
+					<p class="color_azuln">TOTAL A PAGAR: <span class="color_naranjan">$55.00 pesos</span></p>	
+				
+					</div>	
+					
+					<div class="col-sm-12 cont_btn_segcom">
+							
+							<a href="#" class="btn_canjear_aho" onclick="openEncuesta()">Pagar ahora</a><br>
+						
+                        	<a href="datos_envio.html" class="btn_regreso">Regresar</a>
+                    		
+                      </div>	  		
+					
+					
+				</div>
+				
+				
+            </div>
+     
+		
+		
+		
+		</div>	<!--Termina ROW-->
+		
+		
+		
+		<!-- MODALES -->
+	
+		
+		<div id="encuesta" class="overlay">
+                  
+                  <div class="overlay-content">
+					  
+					
+					  
+                    <div class="container">
+						  <a href="javascript:void(0)" class="closebtn" onclick="closeEncuesta()">X</a>
+                      <div class="row">
+                        <div class="col">
+						 </div>
+                        	
+						  <div class="col-md-8 cont_encuesta">
+								
+							  	<img src="assets/img/login_logo_nshop.png" alt="N-shop" class="img-fluid"/>
+						
+								<br/>
+							  	<hr>
+						   		
+							  	<div class="col-sm-12">
+                            	<p class="color_azuln txt_encontr">¿Encontraste todo lo que buscabas?</p>
+                          		</div>
+							 	
+								<div class="row">
+								<div class="col-6 " >	
+                        		<a href="javascript:void(0)" class="btn_encuestno" onClick="closeEncuesta();openSugerencia()">NO</a>
+							
+								</div>
+							  	
+							  <div class="col-6 " >	
+                        		
+								<a href="javascript:void(0)" class="btn_encuestsi" onClick="closeEncuesta();openCompra()">Si</a>	
+								</div>
+							    </div>
+						  
+						  
+						  </div>
+                        <div class="col">
+						</div>
+                      </div>
+                    </div>
+                    
+                  </div>
+        </div>
+		
+		<div id="sugerencia" class="overlay">
+                  
+                  <div class="overlay-content">
+					  
+					
+					  
+                    <div class="container">
+						  <a href="javascript:void(0)" class="closebtn" onclick="closeSugerencia()">X</a>
+                      <div class="row">
+                        <div class="col">
+						 </div>
+                        	
+						  <div id="sugerencia_1" class="col-md-8 cont_sugerencia">
+								
+							  	<img src="assets/img/login_logo_nshop.png" alt="N-shop" class="img-fluid"/>
+						
+								<br/>
+							  	<hr>
+						   		
+							  	<div class="col-sm-12">
+                            	<p class="color_azuln txt_encontr">Dinos qué otros productos te gustaria encontrar</p>
+								<textarea class="form-control" placeholder="" rows="3"></textarea>
+                            	
+                          		</div>
+							 	
+								
+								<div class="col-12 " >	
+                        		<a href="javascript:void(0)" class="btn_env_sugeren" onClick="closeSugerencia();openCompra()">Enviar Sugerencia</a>
+							
+								</div>
+							  	
+							 
+						  
+						  
+						  </div>
+                        <div class="col">
+						</div>
+                      </div>
+                    </div>
+                    
+                  </div>
+        </div>
+		
+		<div id="info_compra" class="overlay">
+                  
+                  <div class="overlay-content">
+					  
+					
+					  
+                    <div class="container">
+						  <a href="javascript:void(0)" class="closebtn" onclick="closeCompra()">X</a>
+                      <div class="row">
+                        <div class="col">
+						 </div>
+                        	
+						  <div class="col-md-8 cont_info_compra">
+								
+							  	<img src="assets/img/login_logo_nshop.png" alt="N-shop" class="img-fluid"/>
+						
+								<br/>
+							  	<hr>
+						   		
+							  	<div class="col-sm-12">
+                            	<p class="color_azuln txt_encontr">Producto</p>
+								<label class="">Cereal Nesquik 345gr</label>	
+                          		</div>
+							  
+							  	<div class="col-sm-12">
+                            	<p class="color_azuln txt_encontr">Cantidad</p>
+								<label class="">2 Unidades</label>	
+                          		</div>
+							  
+							  	<div class="col-sm-12">
+                            	<p class="color_azuln txt_total">TOTAL: <span class="color_naranjan">$144.00 pesos</span></p>
+									
+                          		</div>
+							  
+							  	<div class="col-sm-12">
+                            	<p class="color_azuln txt_like"><i class="fas fa-thumbs-up"></i></p>
+									
+                          		</div>
+							  
+							  	<div class="col-sm-12">
+                            	<p class="color_azuln txt_ahorras">En esta compra ahorraste $15.00</p>
+									
+                          		</div>
+							 	
+								
+						  
+						  </div>
+                        <div class="col">
+						</div>
+                      </div>
+                    </div>
+                    
+                  </div>
+        </div>
+		
+		
+		
+		
+			
+		
+		
+		
+		<div class="row">
+			
+			<div class="col-sm-12 cont_pag_segu">
+		
+				<p>Transacciones</p>
+				<p><img src="assets/img/penpay.jpg" alt="penpay"/></p>
+				<p>Tus pagos se realizan de forma segura <br> con encriptación de 256 bits.</p>
+		        <p><i class="far fa-shield-check"></i></p>
+			</div>
+		
+		
+		
+		
+		</div>
+		
+		
+		<hr>
+		
+		
+		
+		
+	</div><!--Termina COINTANER-->
+		
+	
+		
+		 <div class="container-fluid bg_azul_row">
+		<div class="submenu_login row">
+		
+			<ul>
+				<li class="floanone_mov" ><a href="aviso_privacidad.html">Aviso de Privacidad</a></li>
+			<li class="border-left"><a href="terminos_condiciones.html">Términos y Codiciones</a></li>
+			<li class="border-left"><a href="contacto.html">Contacto</a></li>
+			<li class="border-left"><a href="preguntas_frecuentes.html">Preguntas Frecuentes</a></li>
+			<li class="border-left"><a href="facturacion.html">Facturación</a></li>		
+			</ul>
+	
+		</div>
+	</div>
+		
+	
+		
+	<footer>
+		<div class="row">
+		<p>&#9400; N-shop tu tienda en linea. Todos los Derechos Reservados. Un sitio de compras en internet generado por <a href="http://www.mlg.com.mx/"><strong>Master Loyalty Group.</strong></a></p>
+		</div>
+	</footer><!--Termina FOOTER-->
+		
+           
+
+		
+
+    
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>	
+	 <script src="js/bootstrap-select.min.js"></script>		
+	<script src="js/fontjs/fa-brands.js"></script>
+	<script src="js/fontjs/fa-light.js"></script>
+	<script src="js/fontjs/fa-regular.js"></script>
+	<script src="js/fontjs/fa-solid.js"></script>
+	<script src="js/fontjs/fa-v4-shims.js"></script>
+	<script src="js/fontawesome-all.js"></script>	
+	<script src="js/jquery.touchSwipe.min.js"></script>	
+    <script src="js/sticky.js"></script>
+	<script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.touchSwipe.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+
+		
+	<script>
+
+        function openEncuesta() {
+            document.getElementById("encuesta").style.height = "100%";
+                $(document).ready(function(){
+                $(this).find('#encuesta').focus();
+            });
+        }
+
+        function closeEncuesta() {
+            document.getElementById("encuesta").style.height = "0%";
+        }
+    </script>
+		
+	<script>
+
+        function openSugerencia() {
+            document.getElementById("sugerencia").style.height = "100%";
+                $(document).ready(function(){
+                $(this).find('#sugerencia_1').focus();
+            });
+        }
+
+        function closeSugerencia() {
+            document.getElementById("sugerencia").style.height = "0%";
+        }
+    </script>
+		
+	<script>
+
+        function openCompra() {
+            document.getElementById("info_compra").style.height = "100%";
+                $(document).ready(function(){
+                $(this).find('#info_compra').focus();
+            });
+        }
+
+        function closeCompra() {
+            document.getElementById("info_compra").style.height = "0%";
+        }
+    </script>
+		
+		
+		
+	
+		<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("btn_go_tothetop").style.display = "block";
+    } else {
+        document.getElementById("btn_go_tothetop").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+ $('#btn_go_tothetop').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 700); 
+        return false; 
+    });
+}
+</script>
+		
+		
+		
+		
+		
+
+	 <script>
+        $("#myCarousel").swipe({
+
+          swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+
+            if (direction == 'left') $(this).carousel('next');
+            if (direction == 'right') $(this).carousel('prev');
+
+          },
+          allowPageScroll:"vertical"
+
+        });
+    </script>
+		
+			
+		<script>
+      $('#myCarousel_2').on('slide.bs.carousel', function (e) {
+    var $e = $(e.relatedTarget);
+    var idx = $e.index();
+    var itemsPerSlide = 4;
+    var totalItems = $('.carousel-item').length;
+    
+    if (idx >= totalItems-(itemsPerSlide-1)) {
+        var it = itemsPerSlide - (totalItems - idx);
+        for (var i=0; i<it; i++) {
+            // append slides to end
+            if (e.direction=="left") {
+                $('.carousel-item').eq(i).appendTo('.carousel-inner');
+            }
+            else {
+                $('.carousel-item').eq(0).appendTo('.carousel-inner');
+            }
+        }
+    }
+});
+
+    </script>
+		
+<!--		<script>
+	$("#myCarousel_2").carousel({
+  interval: 3000
+})
+		 </script>-->
+		
+		
+	<script>	
+	$(document).ready(function() {
+ 
+  var owl = $("#owl-menu");
+ 
+  owl.owlCarousel({
+       autoWidth:true,
+	   nav: true,
+	  pagination: false,
+	  dots: false,
+  });
+ 
+  // Custom Navigation Events
+  $(".next").click(function(){
+    owl.trigger('owl.next');
+  })
+  $(".prev").click(function(){
+    owl.trigger('owl.prev');
+  })
+  //$(".play").click(function(){
+    //owl.trigger('owl.play',1000); //owl.play event accept autoPlay speed as second parameter
+  //})
+  //$(".stop").click(function(){
+    //owl.trigger('owl.stop');
+  //})
+ 
+});
+    </script>
+		
+		
+		<script>	
+	$(document).ready(function() {
+ 
+  var owl = $("#owl-menu-2");
+ 
+  owl.owlCarousel({
+       autoWidth:true,
+	   nav: true,
+	  pagination: false,
+	  dots: false,
+  });
+ 
+  // Custom Navigation Events
+  $(".next").click(function(){
+    owl.trigger('owl.next');
+  })
+  $(".prev").click(function(){
+    owl.trigger('owl.prev');
+  })
+  //$(".play").click(function(){
+    //owl.trigger('owl.play',1000); //owl.play event accept autoPlay speed as second parameter
+  //})
+  //$(".stop").click(function(){
+    //owl.trigger('owl.stop');
+  //})
+ 
+});
+			
+	var owl = $('#owl-menu-2');
+owl.owlCarousel({
+    items:4,
+    loop:true,
+
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true
+});
+$('.play').on('click',function(){
+    owl.trigger('play.owl.autoplay',[3000])
+})
+$('.stop').on('click',function(){
+    owl.trigger('stop.owl.autoplay')
+})		
+			
+			
+    </script>
+		
+		
+		
+		
+    
+    </body>
+</html>
